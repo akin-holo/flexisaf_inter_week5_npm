@@ -12,6 +12,10 @@ exports.handler = async () => {
               <link rel="icon" type="image/x-icon" href="https://github.com/akin-holo/image-preview/blob/main/logo.png?raw=true">
 
               <style>
+              body {
+                text-align: center;
+                font-size: 1.3rem;
+              }
                span {
                 font-weight: bolder;
                 font-size: 30px;
