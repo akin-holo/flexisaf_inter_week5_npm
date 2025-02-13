@@ -14,6 +14,13 @@ exports.handler = async () => {
                 body {
                  text-align: center;
                 }
+
+                code {
+                background-color: black;
+                }
+                .green-color {
+                color: green;
+                }
               </style>
           </head>
           <body>
@@ -21,11 +28,12 @@ exports.handler = async () => {
               <p>This page is generated using node.js with the help of Netlify Function.</p>
 
               <hr>
-
+              <br>
               <p><em>You are able to view this server page with this snippet of code<em></p>
 
               <code>
-                exports.handle = async () = > {
+                <span class="green-color"></span>
+                <span class="green-color">exports</span><span class="white-color".</span>handle = async () = > {
                   return {
                     statusCode: 200,
                     headers: { 'Content-Type': 'text/html' },
@@ -41,8 +49,6 @@ exports.handler = async () => {
                       <body>
                         <h1>Welcome to My Node.js Paresentation</h1>
                         <p>This page is generated using node.js with the help of Netlify Function.</p>
-
-                        <hr>
                       </body>
                     </html>
                       ',
@@ -54,4 +60,5 @@ exports.handler = async () => {
       `,
   };
 };
-
+{/* <span class="blue-color"></span>
+<span class="blue-color"></span> */}
