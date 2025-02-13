@@ -85,7 +85,7 @@ server.listen(3000, () => {
 
 ### Links
 
-- Solution URL: [Live preview](https://fip-intermediate-week5-npm.netlify.app/.netlify/functions/server)
+- Solution URL: [Live host](https://fip-intermediate-week5-npm.netlify.app/.netlify/functions/server)
 
 
 

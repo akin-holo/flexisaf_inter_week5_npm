@@ -9,71 +9,34 @@ exports.handler = async () => {
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
               <title>Node.js Presentation | By Akin Holo</title>
+              <link rel="icon" type="image/x-icon" href="https://github.com/akin-holo/image-preview/blob/main/logo.png?raw=true">
 
               <style>
-                body {
-                 text-align: center;
+               span {
+                font-weight: bolder;
+                font-size: 30px;
+               }
+                .blue-color {
+                color: blue
                 }
-
-                // code {
-                // background-color: black;
-                // }
-                .green-color {
-                color: green;
+                .red-color {
+                color: red;
                 }
+                .purple-color {
+                color: purple}
               </style>
           </head>
           <body>
               <h1>Welcome to My Node.js Paresentation</h1>
               <p>This page is generated using node.js with the help of Netlify Function.</p>
 
-              <hr>
               <br>
-              <p><em>You are able to view this server page with this snippet of code<em></p>
-
-              <code>
-                <span class="green-color"></span>
-                <span class="green-color">exports</span><span class="white-color".</span>handle = async () = > {
-                <br>
-                  return {
-                  <br>
-                    statusCode: 200,
-                      <br>
-                    headers: { 'Content-Type': 'text/html' },
-                      <br>
-                    body: '
-                      <br>
-                      <!DOCTYPE html>
-                        <br>
-                      <html lang="en">
-                        <br>
-                      <head>
-                        <br>
-                      <meta charset="UTF-8">
-                        <br>
-                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <br>
-                      <title>Node.js Presentation | By Akin Holo</title>
-                        <br>
-                      </head>
-                        <br>
-                      <body>
-                        <br>
-                        <h1>Welcome to My Node.js Paresentation</h1>
-                          <br>
-                        <p>This page is generated using node.js with the help of Netlify Function.</p>
-                          <br>
-                      </body>
-                        <br>
-                    </html>
-                      ',
-                  };
-                };
-              </code>
+              <span class="blue-color">I </span> <span class="red-color">hope</span> it is <span class="purple-color">commendable</span> </span>
+              
+              <p>See you in week 6</P>
           </body>
           </html>
       `,
   };
 };
-{/* <span class="blue-color"></span>
-<span class="blue-color"></span> */}
+
