@@ -34,6 +34,8 @@ exports.handler = async () => {
               <h1>Welcome to My Node.js Paresentation</h1>
               <p>This page is generated using node.js with the help of Netlify Function.</p>
 
+              <hr>
+              
               <br>
               <span class="blue-color">I </span> <span class="red-color">hope</span> it is <span class="purple-color">commendable</span> </span>
               
